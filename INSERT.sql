@@ -7,7 +7,7 @@ INSERT INTO Genre(name)
 VALUES ('Hip-hop'), ('Alternative rock'), ('Pop'), ('Metal');
 
 INSERT INTO GenreArtist(genre_id, artist_id)
-VALUES (2, 1), (1, 2), (4, 3), (2, 4), (3, 5);
+VALUES (2, 1), (1, 1), (1, 2), (4, 3), (2, 4), (3, 5);
 
 INSERT INTO Album(name, release_alb)
 VALUES ('Living Things', '2012-06-26'), ('Kamikaze', '2018-08-31'), ('Music to Be Murdered By', '2020-01-17'),
